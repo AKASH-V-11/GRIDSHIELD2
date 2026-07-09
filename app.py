@@ -968,16 +968,13 @@ if not st.session_state.dashboard_loaded:
 
 
     launch_gridshield()
-    st.success(
-    "⚡ GRIDSHIELD SYSTEM ACTIVE"
-)
-    # =====================================================
+    ===========================================
 # GRIDSHIELD MENU
 # =====================================================
 
-st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD")
+st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD ⚡")
 
-st.markdown("### 🚀 Select a Module")
+st.markdown("### 🚀GRIDSHIELD Control Panel🚀")
 
 c1, c2, c3, c4, c5 = st.columns(5)
 c6, c7, c8, c9, c10 = st.columns(5)
@@ -991,36 +988,36 @@ with c2:
         st.switch_page("pages/2_🗺️_INDIA_GRID.py")
 
 with c3:
-    if st.button("⚡", use_container_width=True):
-        st.switch_page("pages/3_⚡_FAULT_SIMULATOR.py")
+    if st.button("🌐", use_container_width=True):
+        st.switch_page("pages/3_🌐_LIVE_GRID.py")
 
 with c4:
-    if st.button("🤖", use_container_width=True):
-        st.switch_page("pages/4_🤖_AI_COMMANDER.py")
+    if st.button("⚠️", use_container_width=True):
+        st.switch_page("pages/4_⚠️_FAULT_SIMULATOR.py")
 
 with c5:
-    if st.button("🚨", use_container_width=True):
-        st.switch_page("pages/5_🚨_INCIDENTS.py")
+    if st.button("🤖", use_container_width=True):
+        st.switch_page("pages/5_🤖_AI_COMMANDER.py")
 
 with c6:
     if st.button("🚑", use_container_width=True):
         st.switch_page("pages/6_🚑_EMERGENCY_DISPATCH.py")
 
 with c7:
-    if st.button("📈", use_container_width=True):
-        st.switch_page("pages/7_📈_ANALYTICS.py")
+    if st.button("🔋", use_container_width=True):
+        st.switch_page("pages/7_🔋_ANALYTICS.py")
 
 with c8:
-    if st.button("📄", use_container_width=True):
-        st.switch_page("pages/8_📄_REPORTS.py")
+    if st.button("📝", use_container_width=True):
+        st.switch_page("pages/8_📝_INCIDENT_REPORTS.py")
 
 with c9:
     if st.button("⚙️", use_container_width=True):
         st.switch_page("pages/9_⚙️_SETTINGS.py")
 
 with c10:
-    if st.button("ℹ️", use_container_width=True):
-        st.switch_page("pages/10_ℹ️_ABOUT.py")
+    if st.button("🏢", use_container_width=True):
+        st.switch_page("pages/10_🏢_ABOUT US.py")
     st.stop()
 # ==========================================================
 # FALLBACK
