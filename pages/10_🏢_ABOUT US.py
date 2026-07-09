@@ -609,13 +609,13 @@ with c1:
 
  🔗 LinkedIn
 
-linkedin.com/in/akash-v-9249b2296
+https://www.linkedin.com/in/akash-v-9249b2296
 
 ━━━━━━━━━━━━━━━━━━━━
 
 💻 GitHub
 
-github.com/AKASH-V-11
+https://github.com/AKASH-V-11
 
 """)
 
@@ -625,7 +625,7 @@ with c2:
 
  📷 Instagram
 
-instagram.com/_aka.zzz_
+https://www.instagram.com/_aka.zzz_?igsh=anZ3OHZtY3c2enU=
 
 ━━━━━━━━━━━━━━━━━━━━
 
