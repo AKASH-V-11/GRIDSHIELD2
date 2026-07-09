@@ -478,8 +478,7 @@ def login_page():
 
        🔐 OPERATOR ACCESS 🔐 
 
-    National Grid Control Console
-    </div>
+    LOGIN TO THE CONTROLLER ROOM
     
     """,
 
