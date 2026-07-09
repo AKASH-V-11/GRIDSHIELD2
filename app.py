@@ -7,7 +7,7 @@ import time
 # ==========================================================
 
 st.set_page_config(
-    page_title="GRIDSHIELD ⚡",
+    page_title="GRIDSHIELD",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -223,24 +223,14 @@ def gridshield_loading():
     """
 
     <div class="electric">
-    ⚡⚡⚡
-    </div>
-
-
     <div class="grid-title">
-
-    **GRIDSHIELD**
+    **⚡GRIDSHIELD⚡**
 
 
     <div class="power-card">
     NATIONAL POWER GRID CONTROL SYSTEM
-
-
     <br><br>
-
-
     ⚡ Initializing Grid Network ⚡
-
 
     </div>
 
@@ -479,29 +469,23 @@ def login_page():
 
     <div class="bolt">
     <div class="login-title">
-
     ⚡GRIDSHIELD ⚡
 
     </div>
 
-
     <br>
-
 
     <div class="login-box">
 
-
     <div class="login-text">
 
-       🔐 OPERATOR ACCESS  🔐 
+       🔐 OPERATOR ACCESS 🔐 
 
     National Grid Control Console
 
     </div>
 
-
     </div>
-
 
     """,
 
@@ -547,7 +531,7 @@ def login_page():
 
         if st.button(
 
-            "⚡ ENTER GRIDSHIELD ⚡ ",
+            "⚡ ENTER GRIDSHIELD ⚡",
 
             use_container_width=True
 
@@ -682,20 +666,13 @@ def launch_gridshield():
 
     </div>
 
-
     <br>
-
 
     <div class="launch-box">
 
-
-    🇮🇳 National Power Grid Interface Loading
-
+    ---National Power Grid Interface---
     <br><br>
-
     ⚡ Establishing Secure Connection ⚡ 
-
-
     </div>
 
     """,
@@ -969,57 +946,7 @@ def government_header():
 
 
 
-    st.markdown(
 
-    """
-
-    <div class="gov-header">
-
-
-        <div class="power-icon">
-
-        ⚡
-
-        </div>
-
-
-
-        <div>
-
-
-        <div class="gov-title">
-
-        GRIDSHIELD NATIONAL POWER GRID
-
-        </div>
-
-
-        <div class="gov-sub">
-
-        🇮🇳 Secure Electricity Command Interface
-
-        </div>
-
-
-
-        </div>
-
-
-        <div class="power-icon">
-
-        ⚡
-
-        </div>
-
-
-    </div>
-
-
-
-    """,
-
-    unsafe_allow_html=True
-    )
 # ==========================================================
 # ⚡ GRIDSHIELD APPLICATION CONTROLLER
 # ==========================================================
