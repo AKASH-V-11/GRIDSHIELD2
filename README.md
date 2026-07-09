@@ -70,9 +70,9 @@ Er. Perumal Manimekalai College of Engineering, Hosur, Tamil Nadu, India 🇮�
 
 ### 🌐 Connect With Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME
+- 💼 LinkedIn: https://www.linkedin.com/in/akash-v-9249b2296
 - 💻 GitHub: https://github.com/AKASH-V-11
-- 📸 Instagram: https://instagram.com/YOUR-INSTAGRAM-USERNAME
+- 📸 Instagram: https://instagram.com/_aka.zzz_
 
 ---
 
