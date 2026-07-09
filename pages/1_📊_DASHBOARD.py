@@ -1108,4 +1108,4 @@ if st.button("🚪 Logout"):
 
     st.session_state.logged_in = False
 
-    st.switch_page("pages/LOGIN.py")
+    st.switch_page("app.py")
