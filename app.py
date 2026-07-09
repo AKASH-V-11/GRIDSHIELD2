@@ -969,9 +969,9 @@ if not st.session_state.dashboard_loaded:
 
     launch_gridshield()
 
-st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD ⚡")
+st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD 2.0 ⚡")
 
-st.markdown("### 🚀GRIDSHIELD Control Panel🚀")
+st.markdown("### 🚀 GRIDSHIELD Control Panel - Select Any Module 🚀")
 
 c1, c2, c3, c4, c5 = st.columns(5)
 c6, c7, c8, c9, c10 = st.columns(5)
