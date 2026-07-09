@@ -1282,10 +1282,7 @@ if not st.session_state.dashboard_loaded:
 
     launch_gridshield()
 
-# STEP 4 : OPEN DASHBOARD
-
-
-st.switch_page(
-    "pages/1_📊_DASHBOARD.py"
+    st.switch_page(
+        "pages/1_📊_DASHBOARD.py"
 )
 
