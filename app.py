@@ -231,11 +231,6 @@ def gridshield_loading():
 
     **GRIDSHIELD**
 
-    </div>
-
-
-    <br>
-
 
     <div class="power-card">
     NATIONAL POWER GRID CONTROL SYSTEM
@@ -483,15 +478,9 @@ def login_page():
     """
 
     <div class="bolt">
-
-    ⚡
-
-    </div>
-
-
     <div class="login-title">
 
-    GRIDSHIELD
+    ⚡GRIDSHIELD ⚡
 
     </div>
 
@@ -504,9 +493,7 @@ def login_page():
 
     <div class="login-text">
 
-    🔐 OPERATOR ACCESS
-
-    <br><br>
+       🔐 OPERATOR ACCESS  🔐 
 
     National Grid Control Console
 
@@ -560,7 +547,7 @@ def login_page():
 
         if st.button(
 
-            "⚡ ENTER GRIDSHIELD",
+            "⚡ ENTER GRIDSHIELD ⚡ ",
 
             use_container_width=True
 
@@ -580,7 +567,7 @@ def login_page():
 
                 st.success(
 
-                    "⚡ Access Granted"
+                    "⚡ Access Granted ⚡"
 
                 )
 
@@ -691,8 +678,7 @@ def launch_gridshield():
     """
 
     <div class="launch-title">
-
-    ⚡ GRIDSHIELD COMMAND CENTER
+    ⚡ GRIDSHIELD COMMAND CENTER ⚡
 
     </div>
 
@@ -705,11 +691,9 @@ def launch_gridshield():
 
     🇮🇳 National Power Grid Interface Loading
 
-
     <br><br>
 
-
-    ⚡ Establishing Secure Connection
+    ⚡ Establishing Secure Connection ⚡ 
 
 
     </div>
