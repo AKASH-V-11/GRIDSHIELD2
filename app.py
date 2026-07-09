@@ -1289,5 +1289,3 @@ st.switch_page(
     "pages/1_📊_DASHBOARD.py"
 )
 
-    st.stop()
-
