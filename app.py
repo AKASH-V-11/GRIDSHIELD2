@@ -228,16 +228,13 @@ def gridshield_loading():
 
 
     <div class="grid-title">
-
-    **GRIDSHIELD**
+    **⚡GRIDSHIELD⚡**
 
 
     <div class="power-card">
     NATIONAL POWER GRID CONTROL SYSTEM
 
-
     <br><br>
-
 
     ⚡ Initializing Grid Network ⚡
 
@@ -479,11 +476,9 @@ def login_page():
 
     <div class="bolt">
     <div class="login-title">
-
-    ⚡GRIDSHIELD ⚡
+    ⚡GRIDSHIELD⚡
 
     </div>
-
 
     <br>
 
@@ -493,7 +488,7 @@ def login_page():
 
     <div class="login-text">
 
-       🔐 OPERATOR ACCESS  🔐 
+       🔐 OPERATOR ACCESS 🔐 
 
     National Grid Control Console
 
@@ -688,14 +683,10 @@ def launch_gridshield():
 
     <div class="launch-box">
 
-
-    🇮🇳 National Power Grid Interface Loading
-
+    ---National Power Grid Interface---
     <br><br>
-
     ⚡ Establishing Secure Connection ⚡ 
-
-
+    
     </div>
 
     """,
@@ -791,235 +782,7 @@ def launch_gridshield():
 
             "CLICK ON 📊 DASHBOARD"
         )
-# ==========================================================
-# 🇮🇳 GRIDSHIELD NATIONAL HEADER
-# ==========================================================
 
-
-def government_header():
-
-
-    st.markdown("""
-
-    <style>
-
-
-    .gov-header{
-
-
-        width:100%;
-
-
-        display:flex;
-
-
-        justify-content:center;
-
-
-        align-items:center;
-
-
-        gap:25px;
-
-
-
-        padding:15px;
-
-
-
-        border-radius:18px;
-
-
-
-        background:
-
-
-        linear-gradient(
-
-        90deg,
-
-        #00111f,
-
-        #003b5c,
-
-        #00111f
-
-        );
-
-
-
-        border:2px solid #00E5FF;
-
-
-
-        box-shadow:
-
-        0 0 20px cyan;
-
-
-
-    }
-
-
-
-
-    .gov-title{
-
-
-        text-align:center;
-
-
-        color:white;
-
-
-        font-size:28px;
-
-
-        font-weight:900;
-
-
-    }
-
-
-
-    .gov-sub{
-
-
-        text-align:center;
-
-
-        color:#00E5FF;
-
-
-        font-size:16px;
-
-
-        font-weight:bold;
-
-
-    }
-
-
-
-
-    .power-icon{
-
-
-        font-size:55px;
-
-
-        animation:pulsePower 1.5s infinite;
-
-
-    }
-
-
-
-
-    @keyframes pulsePower{
-
-
-        0%{
-
-
-        text-shadow:
-
-        0 0 5px cyan;
-
-
-        }
-
-
-
-        50%{
-
-
-        text-shadow:
-
-        0 0 35px cyan;
-
-
-        }
-
-
-
-        100%{
-
-
-        text-shadow:
-
-        0 0 5px cyan;
-
-
-        }
-
-
-    }
-
-
-
-    </style>
-
-
-
-    """,
-
-    unsafe_allow_html=True)
-
-
-
-
-    st.markdown(
-
-    """
-
-    <div class="gov-header">
-
-
-        <div class="power-icon">
-
-        ⚡
-
-        </div>
-
-
-
-        <div>
-
-
-        <div class="gov-title">
-
-        GRIDSHIELD NATIONAL POWER GRID
-
-        </div>
-
-
-        <div class="gov-sub">
-
-        🇮🇳 Secure Electricity Command Interface
-
-        </div>
-
-
-
-        </div>
-
-
-        <div class="power-icon">
-
-        ⚡
-
-        </div>
-
-
-    </div>
-
-
-
-    """,
-
-    unsafe_allow_html=True
-    )
 # ==========================================================
 # ⚡ GRIDSHIELD APPLICATION CONTROLLER
 # ==========================================================
@@ -1314,7 +1077,6 @@ st.markdown(
 """
 
 <div class="electric-flash">
-
 ⚡
 
 </div>
