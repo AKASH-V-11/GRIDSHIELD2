@@ -1313,5 +1313,3 @@ time.sleep(1)
 st.session_state.dashboard_loaded = True
 
 st.rerun()
-
-        st.switch_page("pages/10_🏢_ABOUT US.py")
