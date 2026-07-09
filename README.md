@@ -1,4 +1,4 @@
-# ⚡ GRIDSHIELD ⚡
+# ⚡ GRIDSHIELD 2.0 ⚡
 
 **National Intelligent Power Grid Monitoring & Protection Platform**
 
