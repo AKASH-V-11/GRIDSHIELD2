@@ -1019,8 +1019,7 @@ with c9:
 
 with c10:
     if st.button("🏢", use_container_width=True):
-
-
+        st.switch_page("pages/10_🏢_ABOUT US.py")
 
 # ==========================================================
 # FALLBACK
