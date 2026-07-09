@@ -206,7 +206,7 @@ def gridshield_loading():
 
         color:white;
 
-        font-size:22px;
+        font-size:20px;
 
     }
 
