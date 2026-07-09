@@ -740,57 +740,6 @@ def launch_gridshield():
 
     time.sleep(0.5)
 
-# =====================================================
-# GRIDSHIELD MENU
-# =====================================================
-
-st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD ⚡ ")
-
-st.markdown("### 🚀 Select a Module")
-
-c1, c2, c3, c4, c5 = st.columns(5)
-c6, c7, c8, c9, c10 = st.columns(5)
-
-with c1:
-    if st.button("📊", use_container_width=True):
-        st.switch_page("pages/1_📊_DASHBOARD.py")
-
-with c2:
-    if st.button("🗺️", use_container_width=True):
-        st.switch_page("pages/2_🗺️_INDIA_GRID.py")
-
-with c3:
-    if st.button("🌐", use_container_width=True):
-        st.switch_page("pages/3_🌐_LIVE_GRID.py")
-
-with c4:
-    if st.button("⚠️", use_container_width=True):
-        st.switch_page("pages/4_⚠️_FAULT_SIMULATOR.py")
-
-with c5:
-    if st.button("🤖", use_container_width=True):
-        st.switch_page("pages/5_🤖AI_COMMANDER.py")
-
-with c6:
-    if st.button("🚑", use_container_width=True):
-        st.switch_page("pages/6_🚑_EMERGENCY_DISPATCH.py")
-
-with c7:
-    if st.button("🔋", use_container_width=True):
-        st.switch_page("pages/7_🔋_ANALYTICS.py")
-
-with c8:
-    if st.button("📝", use_container_width=True):
-        st.switch_page("pages/8_📝_INCIDENT_REPORTS.py")
-
-with c9:
-    if st.button("⚙️", use_container_width=True):
-        st.switch_page("pages/9_⚙️_SETTINGS.py")
-
-with c10:
-    if st.button("🏢", use_container_width=True):
-        st.switch_page("pages/10_🏢_ABOUT US.py")
-
 
 # ==========================================================
 # 🇮🇳 GRIDSHIELD NATIONAL HEADER
@@ -1269,48 +1218,54 @@ st.markdown(
 unsafe_allow_html=True
 
 )
-# ==========================================================
-# ⚡ FINAL GRIDSHIELD ROUTER
-# ==========================================================
+# =====================================================
+# GRIDSHIELD MENU
+# =====================================================
 
+st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD ⚡ ")
 
-# STEP 1 : LOADING SCREEN
+st.markdown("### 🚀 Select a Module")
 
-if st.session_state.boot < 100:
+c1, c2, c3, c4, c5 = st.columns(5)
+c6, c7, c8, c9, c10 = st.columns(5)
 
+with c1:
+    if st.button("📊", use_container_width=True):
+        st.switch_page("pages/1_📊_DASHBOARD.py")
 
-    gridshield_loading()
+with c2:
+    if st.button("🗺️", use_container_width=True):
+        st.switch_page("pages/2_🗺️_INDIA_GRID.py")
 
+with c3:
+    if st.button("🌐", use_container_width=True):
+        st.switch_page("pages/3_🌐_LIVE_GRID.py")
 
-    st.stop()
+with c4:
+    if st.button("⚠️", use_container_width=True):
+        st.switch_page("pages/4_⚠️_FAULT_SIMULATOR.py")
 
+with c5:
+    if st.button("🤖", use_container_width=True):
+        st.switch_page("pages/5_🤖AI_COMMANDER.py")
 
+with c6:
+    if st.button("🚑", use_container_width=True):
+        st.switch_page("pages/6_🚑_EMERGENCY_DISPATCH.py")
 
-# STEP 2 : LOGIN
+with c7:
+    if st.button("🔋", use_container_width=True):
+        st.switch_page("pages/7_🔋_ANALYTICS.py")
 
+with c8:
+    if st.button("📝", use_container_width=True):
+        st.switch_page("pages/8_📝_INCIDENT_REPORTS.py")
 
-if not st.session_state.logged_in:
+with c9:
+    if st.button("⚙️", use_container_width=True):
+        st.switch_page("pages/9_⚙️_SETTINGS.py")
 
+with c10:
+    if st.button("🏢", use_container_width=True):
+        st.switch_page("pages/10_🏢_ABOUT US.py")
 
-    login_page()
-
-
-    st.stop()
-
-
-
-# STEP 3 : COMMAND CENTER STARTUP
-
-
-if not st.session_state.dashboard_loaded:
-
-
-    launch_gridshield()
-
-    status.success("✅ GRIDSHIELD COMMAND CENTER READY ✅")
-
-time.sleep(1)
-
-st.session_state.dashboard_loaded = True
-
-st.rerun()
