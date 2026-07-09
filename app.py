@@ -67,9 +67,9 @@ def gridshield_loading():
 
         text-align:center;
 
-        font-size:85px;
+        font-size:60px;
 
-        font-weight:1000;
+        font-weight:800;
 
         letter-spacing:8px;
 
@@ -84,7 +84,7 @@ def gridshield_loading():
         0 0 60px cyan;
 
 
-        animation:pulse 1.5s infinite;
+        animation:pulse 2.5s infinite;
 
     }
 
@@ -125,7 +125,7 @@ def gridshield_loading():
 
         text-align:center;
 
-        font-size:55px;
+        font-size:40px;
 
         animation:shock 0.8s infinite;
 
