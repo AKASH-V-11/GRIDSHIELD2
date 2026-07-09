@@ -759,7 +759,7 @@ def launch_gridshield():
 
         st.warning(
 
-            "CLICK ON THE ">>" ON TOP LEFT AND EXPLORE GRIDSHIELD"
+            "NOW YOU ARE READY TO EXPLORE GRIDSHIELD"
         )
 # ==========================================================
 # 🇮🇳 GRIDSHIELD NATIONAL HEADER
