@@ -125,7 +125,7 @@ def gridshield_loading():
 
         text-align:center;
 
-        font-size:40px;
+        font-size:30px;
 
         animation:shock 0.8s infinite;
 
