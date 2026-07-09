@@ -224,7 +224,7 @@ def gridshield_loading():
 
     <div class="electric">
     <div class="grid-title">
-    **⚡GRIDSHIELD⚡**
+    ⚡ GRIDSHIELD 2.0 ⚡
 
 
     <div class="power-card">
@@ -469,7 +469,7 @@ def login_page():
 
     <div class="bolt">
     <div class="login-title">
-    ⚡GRIDSHIELD ⚡
+    ⚡GRIDSHIELD 2.0⚡
 
     </div>
 
@@ -479,11 +479,10 @@ def login_page():
 
     <div class="login-text">
 
+
        🔐 OPERATOR ACCESS 🔐 
 
     National Grid Control Console
-
-    </div>
 
     </div>
 
@@ -531,7 +530,7 @@ def login_page():
 
         if st.button(
 
-            "⚡ ENTER GRIDSHIELD ⚡",
+            "🔋 ENTER GRIDSHIELD 🔋",
 
             use_container_width=True
 
@@ -662,7 +661,7 @@ def launch_gridshield():
     """
 
     <div class="launch-title">
-    ⚡ GRIDSHIELD COMMAND CENTER ⚡
+    🛡GRIDSHIELD COMMAND CENTER🛡
 
     </div>
 
