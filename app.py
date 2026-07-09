@@ -968,9 +968,6 @@ if not st.session_state.dashboard_loaded:
 
 
     launch_gridshield()
-    ===========================================
-# GRIDSHIELD MENU
-# =====================================================
 
 st.success("⚡ NOW YOU ARE READY TO EXPLORE GRIDSHIELD ⚡")
 
