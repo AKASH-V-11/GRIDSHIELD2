@@ -663,7 +663,7 @@ def launch_gridshield():
 
     <div class="launch-box">
 
-    ---National Power Grid Interface---
+    🏭 National Power Grid Interface 🏭
     <br><br>
     ⚡ Establishing Secure Connection ⚡ 
     </div>
