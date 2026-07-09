@@ -759,7 +759,7 @@ def launch_gridshield():
 
         st.warning(
 
-            "CLICK ON 📊 DASHBOARD"
+            "CLICK ON THE ">>" ON TOP LEFT AND EXPLORE GRIDSHIELD"
         )
 # ==========================================================
 # 🇮🇳 GRIDSHIELD NATIONAL HEADER
