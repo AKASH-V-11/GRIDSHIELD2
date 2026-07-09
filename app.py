@@ -470,8 +470,7 @@ def login_page():
     <div class="bolt">
     <div class="login-title">
     ⚡GRIDSHIELD 2.0⚡
-    </div>
-    <br>
+
     <div class="login-box">
 
     <div class="login-text">
