@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="⚡ About GRIDSHIELD",
+    page_title="⚡ About GRIDSHIELD 2.0",
     page_icon="⚡",
     layout="wide"
 )
@@ -74,7 +74,7 @@ st.divider()
 st.markdown("""
 
 <div class="main-title">
-⚡ GRIDSHIELD ⚡
+⚡ GRIDSHIELD 2.0 ⚡
 
 </div>
 
@@ -138,7 +138,7 @@ st.divider()
 # 🎯 VISION & MISSION
 # ==========================================================
 
-st.header("🎯 Vision & Mission")
+st.header("🎯 VISION & MISSION 🎯")
 
 left, right = st.columns(2)
 
@@ -466,7 +466,7 @@ st.code("""
 # 👨‍💻 FOUNDER PROFILE
 # ==========================================================
 
-st.header("👨‍💻 Founder")
+st.header("👨‍💻 FOUNDER PROFILE")
 
 left, right = st.columns([1,2])
 
@@ -490,8 +490,6 @@ Communication Engineering
 🌐 Embedded Engineer
 
 🤖 AI Enthusiast
-
-⚡ Smart Grid Researcher
 
 🌐 IoT Developer
 
@@ -529,7 +527,7 @@ st.divider()
 # ❤️ MY MISSION
 # ==========================================================
 
-st.header("❤️ My Mission ❤️")
+st.header("❤️ MY MISSION ❤️")
 
 st.info("""
 
@@ -609,7 +607,7 @@ with c1:
 
     st.info("""
 
-🔗 LinkedIn
+ 🔗 LinkedIn
 
 linkedin.com/in/akash-v-9249b2296
 
@@ -625,7 +623,7 @@ with c2:
 
     st.info("""
 
-📷 Instagram
+ 📷 Instagram
 
 instagram.com/_aka.zzz_
 
@@ -649,7 +647,7 @@ st.warning("""
 © 2026 AKASH. V — Inspiring Greatness.
 All Rights Reserved.
 
-GRIDSHIELD, including its software architecture, dashboard design,
+GRIDSHIELD 2.0, including its software architecture, dashboard design,
 user interface, workflows, Artificial Intelligence logic,
 fault simulation concepts, analytics modules, reporting system,
 visualizations and implementation are the original work of
@@ -671,11 +669,11 @@ st.divider()
 # 🏛 PROJECT PURPOSE
 # ==========================================================
 
-st.header("🏛 Purpose of GRIDSHIELD")
+st.header("🏛 Purpose of GRIDSHIELD 2.0")
 
 st.write("""
 
-GRIDSHIELD was developed to demonstrate how an intelligent software
+GRIDSHIELD 2.0 was developed to demonstrate how an intelligent software
 platform can assist modern electrical power grid operations through
 Artificial Intelligence, interactive monitoring and smart analytics.
 
@@ -766,15 +764,15 @@ st.divider()
 st.markdown(
 """
 <h2 style="text-align:center;color:#00E5FF;">
-⚡ GRIDSHIELD
+⚡ GRIDSHIELD 2.0 ⚡
 </h2>
 
 <h4 style="text-align:center;color:white;">
 National Intelligent Power Grid Command Platform
 </h4>
 
-<h3 style="text-align:center;color:#FFD700;">
-AKASH. V — Inspiring Greatness
+<h3 style="text-align:center;color:#00E5FF;">
+AKASH. V ~ Inspiring Greatness
 </h3>
 
 <h4 style="text-align:center;color:#90EE90;">
