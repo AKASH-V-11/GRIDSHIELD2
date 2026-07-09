@@ -125,7 +125,7 @@ def gridshield_loading():
 
         text-align:center;
 
-        font-size:30px;
+        font-size:20px;
 
         animation:shock 0.8s infinite;
 
@@ -206,7 +206,7 @@ def gridshield_loading():
 
         color:white;
 
-        font-size:20px;
+        font-size:15px;
 
     }
 
@@ -472,9 +472,7 @@ def login_page():
     ⚡GRIDSHIELD 2.0⚡
 
     </div>
-
     <br>
-
     <div class="login-box">
 
     <div class="login-text">
@@ -483,9 +481,8 @@ def login_page():
        🔐 OPERATOR ACCESS 🔐 
 
     National Grid Control Console
-
     </div>
-
+    
     """,
 
     unsafe_allow_html=True
