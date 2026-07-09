@@ -125,7 +125,7 @@ def gridshield_loading():
 
         text-align:center;
 
-        font-size:20px;
+        font-size:30px;
 
         animation:shock 0.8s infinite;
 
@@ -228,7 +228,7 @@ def gridshield_loading():
 
 
     <div class="power-card">
-    NATIONAL POWER GRID CONTROL SYSTEM
+    NATIONAL POWER GRID CONTROLLER
     <br><br>
     ⚡ Initializing Grid Network ⚡
 
@@ -470,7 +470,6 @@ def login_page():
     <div class="bolt">
     <div class="login-title">
     ⚡GRIDSHIELD 2.0⚡
-
     </div>
     <br>
     <div class="login-box">
