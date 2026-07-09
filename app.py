@@ -982,7 +982,7 @@ with c1:
 
 with c2:
     if st.button("🗺️", use_container_width=True):
-        st.switch_page("pages/2_🗺️_INDIA_GRID.py")
+        st.switch_page("pages/2_🗺_INDIA_GRID.py")
 
 with c3:
     if st.button("🌐", use_container_width=True):
